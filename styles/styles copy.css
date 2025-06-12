@@ -17,23 +17,15 @@ body {
 }
 h1 {
     font-family: "Electrolize", sans-serif;
-    font-size: 48px;
 }
 h2 {
     font-family: "Electrolize", sans-serif;
-    font-size: 36px;
 }
 h3 {
     font-family: "Quicksand", sans-serif;
-    font-size: 24px;
 }
 p {
     font-family: "Quicksand", sans-serif;
-    font-size: 20px;
-}
-span {
-    font-family: "Rock Salt", cursive;  /*finns bara som Regular 400*/
-    font-size: 24px;
 }
 
 li {
@@ -53,12 +45,6 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.nav {
-
-}
-.nav ul {
-    display: flex;
 }
 
 .CV-container {
@@ -119,16 +105,4 @@ li {
 }
 .experience-company p {
     text-align: justify;
-}
-.footer {
-    max-width: 1000px;
-    width: 100%;
-    min-height: 250px;
-    height: 100%;
-    margin: auto;
-    margin-top: 15px;
-    background-color: #3CACAE;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
