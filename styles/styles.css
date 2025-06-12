@@ -1,0 +1,108 @@
+/*Nya färger
+Lilac
+#eeb5eb
+
+Orchid
+#c26dbc
+
+Turquoise
+#c8f4f9
+
+Blue Green
+#3cacae*/
+
+
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    font-family: "Electrolize", sans-serif;
+}
+h2 {
+    font-family: "Electrolize", sans-serif;
+}
+h3 {
+    font-family: "Quicksand", sans-serif;
+}
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
+li {
+    font-family: "Quicksand", sans-serif;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.header {
+    max-width: 1000px;
+    width: 100%;
+    min-height: 250px;
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #3CACAE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CV-container {
+    max-width: 1000px;
+    width: 100%;
+    min-height: auto;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    background-color: #C8F4F9;
+}
+.summary-container {
+    max-width: 350px;
+    width: 100%;
+    min-height: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEB5EB;
+    color: #3e203c;
+    padding: 10px;
+}
+.summery-p {
+    text-align: justify;
+}
+.summary-container ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-container {
+    max-width: 650px;
+    width: 100%;
+    min-height: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #206465;
+    background-color: #C8F4F9;
+    padding: 10px;
+}
+.experience-container ul {
+    display: flex;
+    padding-left: 0px;
+    
+}
+.experience-container li {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.experience-company {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+.experience-company p {
+    text-align: justify;
+}
