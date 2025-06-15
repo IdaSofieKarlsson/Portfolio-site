@@ -11,13 +11,13 @@ Turquoise
 Blue Green
 #3cacae*/
 
-
+/*styles for all different texts*/
 body {
     background-color: whitesmoke;
 }
 h1 {
     font-family: "Electrolize", sans-serif;
-    font-size: 48px;
+    font-size: 40px;
 }
 h2 {
     font-family: "Electrolize", sans-serif;
@@ -32,8 +32,8 @@ p {
     font-size: 20px;
 }
 span {
-    font-family: "Rock Salt", cursive;  /*finns bara som Regular 400*/
-    font-size: 24px;
+    font-family: "Indie Flower", cursive;  /*finns bara som Regular 400*/
+    font-size: 20px;
 }
 
 li {
@@ -41,11 +41,11 @@ li {
     list-style-type: none;
     margin-bottom: 5px;
 }
-
+/*styles for header and nav, almost the same on all pages*/
 .header {
     max-width: 1000px;
     width: 100%;
-    min-height: 250px;
+    min-height: 150px;
     height: 100%;
     margin: auto;
     margin-top: 15px;
@@ -54,32 +54,62 @@ li {
     justify-content: space-around;
     align-items: center;
 }
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
 .nav {
-
+    background-color: #3CACAE;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 50px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    top: 0px;
 }
 .nav ul {
     display: flex;
 }
+.nav li {
+    margin-right: 20px;
+}
 
-.CV-container {
+/*styles for home page*/
+.introduction {
+    background-color: #C8F4F9;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.introduction h2 {
+    margin-left: 15px;
+}
+.introduction p {
+    margin-left: 15px;
+}
+
+/*styles for CV page*/
+.summary-container {
     max-width: 1000px;
     width: 100%;
     min-height: auto;
     height: 100%;
-    display: flex;
     margin: auto;
-    background-color: #C8F4F9;
-}
-.summary-container {
-    max-width: 350px;
-    width: 100%;
-    min-height: auto;
-    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #EEB5EB;
     color: #3e203c;
-    padding: 10px;
+}
+.summary-container p, .summary-container h2, .summary-container h3, .summary-container li {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .summery-p {
     text-align: justify;
@@ -89,11 +119,13 @@ li {
     flex-direction: column;
 }
 
+
 .experience-container {
-    max-width: 650px;
+    max-width: 1000px;
     width: 100%;
     min-height: auto;
     height: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     color: #206465;
