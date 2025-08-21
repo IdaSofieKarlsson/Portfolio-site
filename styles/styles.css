@@ -35,6 +35,9 @@ span {
     font-family: "Indie Flower", cursive;  /*finns bara som Regular 400*/
     font-size: 20px;
 }
+a, a:active, a:visited, a:hover {
+    color: black;
+}
 
 li {
     font-family: "Quicksand", sans-serif;
@@ -48,8 +51,8 @@ li {
     min-height: 150px;
     height: 100%;
     margin: auto;
-    margin-top: 15px;
-    background-color: #3CACAE;
+    margin-top: 25px;
+    background-color: #9de5e6;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -60,7 +63,7 @@ li {
     justify-items: center;
 }
 .nav {
-    background-color: #3CACAE;
+    background-color: #9de5e6;
     max-width: 1000px;
     width: 100%;
     min-height: 50px;
@@ -78,13 +81,14 @@ li {
 }
 
 /*styles for home page*/
-.introduction {
+.container-introduction {
     background-color: #C8F4F9;
     max-width: 1000px;
     width: 100%;
     min-height: 500px;
     height: 100%;
     margin: auto;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
 }
@@ -102,6 +106,7 @@ li {
     min-height: auto;
     height: 100%;
     margin: auto;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     background-color: #EEB5EB;
@@ -126,11 +131,12 @@ li {
     min-height: auto;
     height: 100%;
     margin: auto;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     color: #206465;
     background-color: #C8F4F9;
-    padding: 10px;
+
 }
 .experience-container ul {
     display: flex;
@@ -152,13 +158,42 @@ li {
 .experience-company p {
     text-align: justify;
 }
+/*styles administratör*/
+.container-intro-administrator {
+    
+    background-color: #EEB5EB;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*styles prgrammerare*/
+.container-intro-programmerare {
+    background-color: #C8F4F9;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .footer {
     max-width: 1000px;
     width: 100%;
     min-height: 250px;
     height: 100%;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 25px;
     background-color: #3CACAE;
     display: flex;
     justify-content: space-around;
