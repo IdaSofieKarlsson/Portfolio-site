@@ -1,19 +1,35 @@
-/*Nya färger
-Lilac
-#eeb5eb
 
-Orchid
-#c26dbc
+/* Nya färger
+ljus baby blue          #ebf6fe
+Blue Grotto             #1e77bd
+Mildare, gladare grön   #309b90
+mörkare navy blue       #032440
 
-Turquoise
-#c8f4f9
+*/
+.container-color-1 {
+    background-color: #ebf6fe;
+    color: #032440;
+}
+.container-color-2 {
+    background-color: #1e77bd;
+    color: #032440;
+}
+.container-color-3 {
+    background-color: #309b90;
+    color: #032440;
+}
 
-Blue Green
-#3cacae*/
+.container-color-5 {
+    background-color: #032440;
+    color: #ebf6fe;
+}
+
+
 
 /*styles for all different texts*/
 body {
-    background-color: whitesmoke;
+    background-color: #ebf6fe;
+
 }
 h1 {
     font-family: "Electrolize", sans-serif;
@@ -35,15 +51,35 @@ span {
     font-family: "Indie Flower", cursive;  /*finns bara som Regular 400*/
     font-size: 20px;
 }
-a, a:active, a:visited, a:hover {
-    color: black;
+a:hover {
+    color: #309b90;
 }
-
 li {
     font-family: "Quicksand", sans-serif;
     list-style-type: none;
     margin-bottom: 5px;
 }
+.container-line-blue {
+    max-width: 1000px;
+    width: 100%;
+    min-height: 10px;
+    height: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0 px;
+    background-color: #1e77bd;
+}
+.container-line-green {
+    max-width: 1000px;
+    width: 100%;
+    min-height: 10px;
+    height: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0 px;
+    background-color: #309b90;
+}
+
 /*styles for header and nav, almost the same on all pages*/
 .header {
     max-width: 1000px;
@@ -52,7 +88,8 @@ li {
     height: 100%;
     margin: auto;
     margin-top: 25px;
-    background-color: #9de5e6;
+    color: #ebf6fe;
+    background-color: #032440;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -63,7 +100,8 @@ li {
     justify-items: center;
 }
 .nav {
-    background-color: #9de5e6;
+    color: #ebf6fe;
+    background-color: #032440;
     max-width: 1000px;
     width: 100%;
     min-height: 50px;
@@ -79,10 +117,16 @@ li {
 .nav li {
     margin-right: 20px;
 }
-
+.nav a, .nav a:active, .nav a:visited {
+    color: #ebf6fe; 
+}
+.nav a:hover {
+    color: #309b90;
+}
 /*styles for home page*/
 .container-introduction {
-    background-color: #C8F4F9;
+    color: #032440;
+    background-color: #ebf6fe;
     max-width: 1000px;
     width: 100%;
     min-height: 500px;
@@ -92,6 +136,7 @@ li {
     display: flex;
     flex-direction: column;
 }
+
 .introduction h2 {
     margin-left: 15px;
 }
@@ -109,8 +154,8 @@ li {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-    background-color: #EEB5EB;
-    color: #3e203c;
+    background-color: #ebf6fe;
+    color: #032440;
 }
 .summary-container p, .summary-container h2, .summary-container h3, .summary-container li {
     padding-left: 25px;
@@ -134,8 +179,8 @@ li {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-    color: #206465;
-    background-color: #C8F4F9;
+    color: #032440;
+    background-color: #ebf6fe;
 
 }
 .experience-container ul {
@@ -160,8 +205,8 @@ li {
 }
 /*styles administratör*/
 .container-intro-administrator {
-    
-    background-color: #EEB5EB;
+    color: #032440;
+    background-color: #ebf6fe;
     max-width: 1000px;
     width: 100%;
     min-height: 500px;
@@ -170,12 +215,12 @@ li {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-
 }
 
 /*styles prgrammerare*/
 .container-intro-programmerare {
-    background-color: #C8F4F9;
+    color: #032440;
+    background-color: #ebf6fe;
     max-width: 1000px;
     width: 100%;
     min-height: 500px;
@@ -194,8 +239,15 @@ li {
     height: 100%;
     margin: auto;
     margin-top: 25px;
-    background-color: #3CACAE;
+    color: #ebf6fe;
+    background-color: #032440;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.footer a, .footer a:active, .footer a:visited {
+    color: #ebf6fe; 
+}
+.footer a:hover {
+    color: #309b90;
 }
